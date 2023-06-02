@@ -40,7 +40,6 @@ const CreatePost: React.FC<CreatePostProps> = ({ onSave }) => {
 
   const handleSave = () => {
     onSave(content);
-    // Implement your save logic here
     console.log(content);
   };
 
