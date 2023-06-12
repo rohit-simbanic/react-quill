@@ -1,3 +1,19 @@
+body {
+  background: #f3f1f2;
+}
 .ql-editor {
-  height: 200px !important;
+  min-height: 18em !important;
+}
+.ql-container {
+  border-bottom-left-radius: 0.5em;
+  border-bottom-right-radius: 0.5em;
+  background: #fefcfc;
+}
+
+/* Snow Theme */
+.ql-toolbar.ql-snow {
+  display: block;
+  background: #eaecec;
+  border-top-left-radius: 0.5em;
+  border-top-right-radius: 0.5em;
 }
